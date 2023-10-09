@@ -1,0 +1,36 @@
+ .account{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    position:fixed;
+    padding-left: 400px;
+    z-index: 2;
+ }
+ .account-conatiner{
+    width: 600px;
+    height: 650px;
+    background-color: rgba(175, 175, 172, 0.953);
+    border-radius: 10px;
+      
+ }
+ .account-info{
+     padding-top: 40px; 
+ }
+ .btn2{
+    width: 440px;
+    height: 55px;
+    border-radius: 8px;
+ }
+ .l-conatin{
+   position: relative;
+   display: flex;
+    
+ }
+ .btnca{
+     margin-right: 550px;
+     margin-left: 20px;
+     margin-top: 10px;
+     mix-blend-mode: multiply;
+
+ }

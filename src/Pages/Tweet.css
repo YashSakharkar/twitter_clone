@@ -1,0 +1,39 @@
+.tweetbox{
+    margin-top: 60px;
+    border-top: 1px solid lightgray;
+    border-bottom: 4px solid lightgray ;
+    
+  }
+  .tweet{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    display: flex;
+    gap:30px;
+    border-left: 1px solid rgb(227, 225, 225);
+    
+  }
+  .tweetpost{
+      float: right;
+      background-color: #1DA1F2;
+      height: 40px;
+      width: 150px;
+      border-radius: 40px;
+    border-color: white;
+     color: white;  
+      }
+      .imageicon{
+        float: left;
+        color: hsl(203, 89%, 53%);
+        cursor:pointer;
+        font-size: 16px;
+      }
+      .imageinput{
+        display: none;
+      }
+        .imageloading{
+          font-size: 15px;
+          color: #1DA1F2;
+          padding-left: 15px;
+        }

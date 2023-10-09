@@ -1,0 +1,46 @@
+.widjet{
+    padding-left: 5px;
+     margin-top: 20px;
+     flex: 0.3;
+     min-width: fit-content;
+     overflow-y: scroll;
+     
+}
+.widjet::-webkit-scrollbar{
+    display: none;
+}
+ .widjetinput{
+     display: flex;
+     align-items: center;
+     background-color: lightgray;
+     padding: 10px 20px;
+     border-radius: 50px;
+     margin-top: 10px;
+     
+      
+ }
+ .widjetinput>input{
+    
+  border: none;
+  background-color: lightgray;
+  padding-left: 15px;
+  
+ }
+ .widjet_container{
+    padding: 15px;
+    border-radius: 20px;
+    float: left;
+ }
+ .widjet_container>h2{
+    font-size: 30px;
+    font-weight: 600;
+ }
+ .embed{
+    width: 350px !important;
+ }
+ @media screen and (max-widht:688px){
+    .widjet{
+        display: none;
+    }
+    
+ }
